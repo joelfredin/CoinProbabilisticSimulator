@@ -1,0 +1,29 @@
+# Ignore build artifacts and other temporary files
+build/
+dist/
+*.exe
+*.o
+*.obj
+*.log
+*.tmp
+*.bak
+
+# Ignore dependecies and package files
+
+node_modules/
+vendor/
+*.dll
+*.so
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln
+*.vcxproj
+*.xcodeproj
+
+# Ignore configuration files and secrets
+config.ini
+secrets.json
